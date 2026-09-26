@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Agende seu corte, degradê ou barba de forma rápida e fácil. Escolha o serviço e o melhor horário para seu atendimento na barbearia.">
+    <meta name="description"
+        content="Agende seu corte, degradê ou barba de forma rápida e fácil. Escolha o serviço e o melhor horário para seu atendimento na barbearia.">
     <title>B-agenda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -221,6 +222,19 @@
                 </div>
 
 
+                <div>
+                    <div class="mb-4">
+                        <label for="atendente" class="form-label">Atendente</label>
+                        <select id="atendente" name="atendente" class="form-select">
+                            <option value="">Sem preferência</option>
+                            <option value="joao">João</option>
+                            <option value="maria">Maria</option>
+                            <option value="pedro">Pedro</option>
+                        </select>
+                    </div>
+                </div>
+
+
                 <div class="mb-4">
                     <label for="horario-do-agendamento" class="form-label">Horário do agendamento</label>
                     <select id="horario-do-agendamento" name="horario" class="form-select">
@@ -296,6 +310,8 @@
     <footer class="bg-dark text-white text-center p-4">
         <p class="mb-0">&copy; by Breno Emanuel 2025, Montes Claros </p>
     </footer>
+
+    <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
